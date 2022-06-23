@@ -1,0 +1,12 @@
+   int a;  
+        string b, c, d;  
+        //Read a name  
+        Console.Write("Enter your name : " );  
+        b=Console.ReadLine();  
+        //Read Age  
+        Console.Write("Enter your age : " );  
+        a = Convert.ToInt16( Console.ReadLine());  
+        //Display formatted output  
+        Console.WriteLine("Your name is " + b + ", age is " + a);  
+        //Waiting fot output view  
+        Console.ReadKey();  
